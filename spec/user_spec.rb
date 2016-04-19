@@ -114,6 +114,7 @@ describe User, "advanced validations" do
   it "shouldn't accept invalid phone numbers" do
     @user.assign_attributes(:phone => '123-5768')
     @user.should_not be_valid
+    #atributo.método_de_gema_rspec argumento_del_metodo
   end
 
 end
